@@ -7,6 +7,7 @@ public class Status : MonoBehaviour
     //Miscelanias
     public string unitName;
     public int level;
+    public string strLevel;
     public float currentXP;
     public float nextLevelXP;
     public int improvementPoints;
@@ -30,5 +31,6 @@ public class Status : MonoBehaviour
     public float currentShield;
     public float maxShield;
 
-    public int armor;
+    public int currentArmor;
+    public int maxArmor;
 }

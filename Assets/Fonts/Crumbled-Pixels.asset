@@ -113,9 +113,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Crumbled-Pixels
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: -538934192
   material: {fileID: -6217101173983462791}
-  materialHashCode: 0
+  materialHashCode: 507534299
   m_Version: 1.1.0
   m_SourceFontFileGUID: 33eaefc5e6a251e42aa4e015db52ddbb
   m_SourceFontFile_EditorRef: {fileID: 0}
