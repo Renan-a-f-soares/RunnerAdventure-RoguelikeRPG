@@ -202,16 +202,30 @@ MonoBehaviour:
   currentXP: 0
   nextLevelXP: 0
   improvementPoints: 0
-  strengt: 30
+  strengt: 3
   dexterity: 15
   constitution: 30
   inteligence: 30
-  experience: 100
-  magic: 3
-  currentHP: 1500
-  maxHP: 1500
-  currentMP: 1500
-  maxMP: 1500
-  currentShield: 900
-  maxShield: 900
-  armor: 5
+  experience: 7
+  magic: 1
+  strengtMod: 0
+  dexteritymod: 0
+  constitutionMod: 0
+  inteligenceMod: 0
+  experienceMod: 0
+  magicMod: 0
+  currentHP: 200
+  maxHP: 200
+  currentMP: 200
+  maxMP: 200
+  shieldText: 
+  currentShield: 100
+  maxShield: 100
+  currentArmor: 3
+  maxArmor: 3
+  weaponAttack: 30
+  armorDefense: 0
+  damage: 0
+  hitChance: 0
+  hit: 0
+  armorQuality: 26

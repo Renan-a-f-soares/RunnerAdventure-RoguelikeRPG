@@ -1611,6 +1611,8 @@ MonoBehaviour:
   playerOrigin: {fileID: 1288753727}
   enemyOrigin: {fileID: 1594319217}
   dialogMessage: {fileID: 2047687555}
+  player_StatusBox: {fileID: 1328117508}
+  enemy_StatusBox: {fileID: 1507307052}
   state: 0
 --- !u!1 &529818655
 GameObject:
@@ -2588,7 +2590,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 805230225}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 504724181}
+        m_MethodName: OnAttackButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &805230225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4347,6 +4360,8 @@ MonoBehaviour:
   ShieldPoints: {fileID: 1902839814}
   ArmorPoints: {fileID: 1205975827}
   ManaPoints: {fileID: 1036071111}
+  healthResource: {fileID: 1239650970}
+  manaResource: {fileID: 105274360}
 --- !u!1 &1368337073
 GameObject:
   m_ObjectHideFlags: 0
@@ -4997,8 +5012,10 @@ MonoBehaviour:
   levelText: {fileID: 1371703915}
   HealthPoints: {fileID: 280351907}
   ShieldPoints: {fileID: 1100630581}
-  ArmorPoints: {fileID: 1100630581}
+  ArmorPoints: {fileID: 771369801}
   ManaPoints: {fileID: 46734046}
+  healthResource: {fileID: 961608036}
+  manaResource: {fileID: 1613691872}
 --- !u!1 &1575484421
 GameObject:
   m_ObjectHideFlags: 0

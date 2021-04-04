@@ -44,14 +44,12 @@ public class UiManager : MonoBehaviour
         
     }
     
-    public void StatusUpdate(Status unit)
+    void Update()
     {
+        
         HealthPoints.value = unit.currentHP;
         ShieldPoints.value = unit.currentShield;
         ArmorPoints.value = unit.currentArmor;
-
-        healthResource.text = unit.currentHP + ":" + unit.maxHP + unit.shieldText;
-        manaResource.text = unit.currentMP + ":" + unit.maxMP;
     }
 
     public void DamageDealer(float currentHP)
