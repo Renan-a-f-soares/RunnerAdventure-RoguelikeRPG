@@ -61,51 +61,50 @@ public class BattleSystem : MonoBehaviour
 
     }
 
-    void FixedUpdate()
-    {
-        if(state == BattleState.PLAYERTURN)
-        {
-            stateTarget = enemyUnit;
-            stateSelf = playerUnit;
-            uiTarget = enemy_StatusBox;
-        }
-        else if(state == BattleState.ENEMYTURN)
-        {
-            stateTarget = playerUnit;
-            stateSelf = enemyUnit;
-            uiTarget = player_StatusBox;
-        }
-    }
-    
-
     IEnumerator PlayerTurn()
     {
-        yield return new WaitForSeconds(1.5f);
+        stateTarget = enemyUnit;
+        stateSelf = playerUnit;
+        uiTarget = enemy_StatusBox;
+        yield return new WaitForSeconds(3f);
         dialogMessage.text = "o que voce fará?";
-        
+
     }
 
     IEnumerator EnemyTurn()
     {
-        PlayAttack();
-        yield return new WaitForSeconds(0.1f);
-        state = BattleState.PLAYERTURN;
-        StartCoroutine(PlayerTurn());
-
+        yield return new WaitForSeconds(3f);
+        dialogMessage.text = "?";
+        stateTarget = playerUnit;
+        stateSelf = enemyUnit;
+        uiTarget = player_StatusBox;
+        StartCoroutine(PlayAttack());
+        
     }
 
     IEnumerator PlayAttack()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
         stateTarget.TakeDamage(stateSelf.UpdateDamage());
-        StartCoroutine(DamageCount(stateSelf.UpdateDamage()));
-        //uiTarget.DamageDealer(stateTarget.currentHP);
-        if (state == BattleState.PLAYERTURN)
+        StartCoroutine(DamageCount(stateSelf.damage));
+        
+        uiTarget.StatusUpdate(stateTarget);
+        turnChange();
+    }
+
+    void turnChange()
+    {
+        
+        if(state == BattleState.PLAYERTURN)
         {
             state = BattleState.ENEMYTURN;
             StartCoroutine(EnemyTurn());
         }
-        uiTarget.StatusUpdate(stateTarget);
+        else if(state == BattleState.ENEMYTURN)
+        {
+            state = BattleState.PLAYERTURN;
+            StartCoroutine(PlayerTurn());
+        }
     }
 
     public void OnAttackButton()
@@ -114,27 +113,26 @@ public class BattleSystem : MonoBehaviour
         StartCoroutine(PlayAttack());
     }
 
-    public IEnumerator ArmorBlock(int hit)
-    {
-        if (hit == 1)
-        {
-            yield return new WaitForSeconds(1.5f);
-            dialogMessage.text = "O Ataque perfura a armadura !";
-        }
-        else
-        {
-            yield return new WaitForSeconds(1.5f);
-            dialogMessage.text = "A armadura Bloqueou o Ataque !";
-        }
 
-    }
 
     public IEnumerator DamageCount(float hurtDamage)
     {
-        
-        
+
+        if(stateTarget.currentArmor > 0)
+        {
+            if (stateTarget.hit == 1)
+            {
+                dialogMessage.text = "O Ataque perfura a armadura!";
+            }
+            else
+            {
+                dialogMessage.text = "A armadura Bloqueou o Ataque!";
+            }
+            yield return new WaitForSeconds(2f);
+            
+        }
         dialogMessage.text = stateSelf.unitName +" Desferiu " + hurtDamage +"!";
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(3.5f);
     }
 
 
