@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Status : MonoBehaviour
 {
+
     
     //Variaveis para os Status
     //Miscelanias

@@ -34,6 +34,16 @@ public class BattleSystem : MonoBehaviour
 
     void Start()
     {
+        //Formula para definir a dificuldade do random e o level dos inimigos
+        // ---> Chama script Randon para definir inimigo
+        // ---> chama Script lista de inimigos para definir qual inimigo será usado
+                // definir inimigos por um ID, 
+                        //eles devem ter pesos de status baseados em seu level
+                        //Eles devem ter uma lista de metodos que chamam as habilidades
+                        //eles devem ter uma função chamada que irá encadear essas habilidades
+        //
+
+
         state = BattleState.START;
         StartCoroutine(StartBattle());
     }
