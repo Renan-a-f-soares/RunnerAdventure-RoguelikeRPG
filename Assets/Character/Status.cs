@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Status : MonoBehaviour
 {
-
-    BattleSystem sendMessage;
     
     //Variaveis para os Status
     //Miscelanias

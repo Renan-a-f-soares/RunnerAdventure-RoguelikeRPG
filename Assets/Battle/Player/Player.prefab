@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 670723280462977897}
   - component: {fileID: 670723280462977814}
   m_Layer: 0
-  m_Name: PlayerBackground
+  m_Name: BackgroundSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -141,12 +141,12 @@ MonoBehaviour:
   inteligenceMod: 0
   experienceMod: 0
   magicMod: 0
-  currentHP: 150
+  currentHP: 250
   maxHP: 250
   currentMP: 50
   maxMP: 60
   shieldText: 
-  currentShield: 69
+  currentShield: 178
   maxShield: 178
   currentArmor: 3
   maxArmor: 6
@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 670723281520238316}
   - component: {fileID: 670723281520238317}
   m_Layer: 0
-  m_Name: PlayerBorder
+  m_Name: BorderSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 670723281792672810}
   - component: {fileID: 670723281792672811}
   m_Layer: 0
-  m_Name: PlayerImage
+  m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

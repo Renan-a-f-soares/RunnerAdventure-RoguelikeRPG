@@ -46,7 +46,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\BattleSystem.cs" />
-     <Compile Include="Assets\Character\player\PlayerMove.cs" />
+     <Compile Include="Assets\Character\animation\player\PlayerMove.cs" />
      <Compile Include="Assets\Character\Status.cs" />
      <Compile Include="Assets\UiManager.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
