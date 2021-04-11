@@ -25,19 +25,12 @@ public class Status : MonoBehaviour
     //modificadores
 
     public float strengthMod;
-    public float dexterityMod;
+    public float dexteritymod;
     public float constitutionMod;
     public float inteligenceMod;
     public float experienceMod;
     public float magicMod;
 
-    //pesos para modificador
-    float v1 = 1;
-    float v2 = 2;
-    float v10 = 10;
-    float v50 = 50;
-    float v100 = 100;
-    float vChange;
 
     //Recursos
     public float currentHP;
@@ -61,9 +54,6 @@ public class Status : MonoBehaviour
     //calculo de dano basico de ataque
 
     public float damage;
-    public float physicalDamage;
-    public float magicalDamage;
-
 
     //Controladores
     public int hitChance;
@@ -74,37 +64,16 @@ public class Status : MonoBehaviour
 
     public float UpdateDamage()
     {
-        
-        
-
-        physicalDamage = UpPhysical(v10, v100);
-        magicalDamage = UpMagical(v2, v50, v10, v100);
-        Debug.Log("Fisico: " + physicalDamage);
-        Debug.Log("Magico:" + magicalDamage);
-        damage = physicalDamage + magicalDamage;
+        strengthMod = strength;
+        experienceMod = experience/50;
+        magicMod = magic * (magic / 50);
+        physical = weaponAttack+strength;
+        magical = magicMod * (1 + experienceMod);
+        Debug.Log(magic);
+        damage = physical + magic;
         
         return damage;
     }
-
-    public float UpPhysical(float str, float dex)
-    {
-        experienceMod = experience / v50;
-        dexterityMod = dexterity / dex;
-        strengthMod = strength / str;
-        physical = (weaponAttack * (v1 + ((strengthMod+dexterityMod)*(v1+experienceMod)))) + (strength*dexterityMod);
-        return physical;
-    }
-    public float UpMagical(float mag, float exp, float intl, float dex)
-    {
-        experienceMod = experience / exp;
-        magicMod = magic * (magic / mag);
-        inteligenceMod = inteligence / intl;
-        dexterityMod = dexterity / dex;
-
-        magical = (magicMod * (v1 + experienceMod)) + (inteligenceMod*(v1+dexterityMod));
-        return magical;
-    }
-
     public void TakeDamage(float hurtDamage)
     {
         

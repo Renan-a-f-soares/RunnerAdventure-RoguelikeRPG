@@ -1613,6 +1613,7 @@ MonoBehaviour:
   dialogMessage: {fileID: 2047687555}
   player_StatusBox: {fileID: 1328117508}
   enemy_StatusBox: {fileID: 1507307052}
+  turnDamage: 0
   state: 0
 --- !u!1 &529818655
 GameObject:

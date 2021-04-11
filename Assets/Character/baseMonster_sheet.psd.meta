@@ -1,0 +1,2455 @@
+fileFormatVersion: 2
+guid: 99294e7c77899264b87ee17ccbd0b992
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2926443185699595437
+    second: baseMonster_sheet_0
+  - first:
+      213: -4594884992261883392
+    second: baseMonster_sheet_1
+  - first:
+      213: -1373258867131555744
+    second: baseMonster_sheet_2
+  - first:
+      213: -8411696239225779583
+    second: baseMonster_sheet_3
+  - first:
+      213: -988027312611205362
+    second: baseMonster_sheet_4
+  - first:
+      213: -4347082038548742176
+    second: baseMonster_sheet_5
+  - first:
+      213: 4632827230558273797
+    second: baseMonster_sheet_6
+  - first:
+      213: 1532908899673970377
+    second: baseMonster_sheet_7
+  - first:
+      213: 5932620570539742417
+    second: baseMonster_sheet_8
+  - first:
+      213: -7880260033508613304
+    second: baseMonster_sheet_9
+  - first:
+      213: -5599429116199777227
+    second: baseMonster_sheet_10
+  - first:
+      213: -8931468195105912862
+    second: baseMonster_sheet_11
+  - first:
+      213: 4548281129797075758
+    second: baseMonster_sheet_12
+  - first:
+      213: -7203706317058445490
+    second: baseMonster_sheet_13
+  - first:
+      213: -8902242200954546831
+    second: baseMonster_sheet_14
+  - first:
+      213: -7638341694551623179
+    second: baseMonster_sheet_15
+  - first:
+      213: -4128066686671540436
+    second: baseMonster_sheet_16
+  - first:
+      213: -4851431463121358421
+    second: baseMonster_sheet_17
+  - first:
+      213: 890780412826001816
+    second: baseMonster_sheet_18
+  - first:
+      213: -558122331718251612
+    second: baseMonster_sheet_19
+  - first:
+      213: 511607619248948109
+    second: baseMonster_sheet_20
+  - first:
+      213: -2254046351565991000
+    second: baseMonster_sheet_21
+  - first:
+      213: -6970186819652664848
+    second: baseMonster_sheet_22
+  - first:
+      213: -4047278704706645087
+    second: baseMonster_sheet_23
+  - first:
+      213: -8862014666301236364
+    second: baseMonster_sheet_24
+  - first:
+      213: 6399210455387046001
+    second: baseMonster_sheet_25
+  - first:
+      213: -9151898217147478767
+    second: baseMonster_sheet_26
+  - first:
+      213: 4692994774977479948
+    second: baseMonster_sheet_27
+  - first:
+      213: 2789705122219380
+    second: baseMonster_sheet_28
+  - first:
+      213: -2079484645017432021
+    second: baseMonster_sheet_29
+  - first:
+      213: 5757238135858362580
+    second: baseMonster_sheet_30
+  - first:
+      213: -8535868224734344485
+    second: baseMonster_sheet_31
+  - first:
+      213: -5526836980904526891
+    second: baseMonster_sheet_32
+  - first:
+      213: 1195878924876965722
+    second: baseMonster_sheet_33
+  - first:
+      213: 6536388580173081171
+    second: baseMonster_sheet_34
+  - first:
+      213: -2505605512824206737
+    second: baseMonster_sheet_35
+  - first:
+      213: -8944123187787979362
+    second: baseMonster_sheet_36
+  - first:
+      213: 3661111505585769239
+    second: baseMonster_sheet_37
+  - first:
+      213: -3388590172610655930
+    second: baseMonster_sheet_38
+  - first:
+      213: 7090224652152177993
+    second: baseMonster_sheet_39
+  - first:
+      213: 4827231304593672498
+    second: baseMonster_sheet_40
+  - first:
+      213: -1989216339805394755
+    second: baseMonster_sheet_41
+  - first:
+      213: -141855223037649034
+    second: baseMonster_sheet_42
+  - first:
+      213: 6537001917144578373
+    second: baseMonster_sheet_43
+  - first:
+      213: -6726890050333449621
+    second: baseMonster_sheet_44
+  - first:
+      213: -2404562811169755841
+    second: baseMonster_sheet_45
+  - first:
+      213: -8842328460442407691
+    second: baseMonster_sheet_46
+  - first:
+      213: -2531676186890640762
+    second: baseMonster_sheet_47
+  - first:
+      213: 5903634352655166102
+    second: baseMonster_sheet_48
+  - first:
+      213: 7013390412819726603
+    second: baseMonster_sheet_49
+  - first:
+      213: 3392456275409838601
+    second: baseMonster_sheet_50
+  - first:
+      213: 2690853962120406398
+    second: baseMonster_sheet_51
+  - first:
+      213: 5082766754835299073
+    second: baseMonster_sheet_52
+  - first:
+      213: -7930160953552149266
+    second: baseMonster_sheet_53
+  - first:
+      213: 5771999861292095820
+    second: baseMonster_sheet_54
+  - first:
+      213: -3781615371859560975
+    second: baseMonster_sheet_55
+  - first:
+      213: -7927451847107492663
+    second: baseMonster_sheet_56
+  - first:
+      213: 3896362118917993216
+    second: baseMonster_sheet_57
+  - first:
+      213: 1152154825000910562
+    second: baseMonster_sheet_58
+  - first:
+      213: 8759998402867253161
+    second: baseMonster_sheet_59
+  - first:
+      213: 1140886171996099908
+    second: baseMonster_sheet_60
+  - first:
+      213: 1487640392528412939
+    second: baseMonster_sheet_61
+  - first:
+      213: -7152845862674687051
+    second: baseMonster_sheet_62
+  - first:
+      213: 4718372249577181819
+    second: baseMonster_sheet_63
+  - first:
+      213: -1151032332106811931
+    second: baseMonster_sheet_64
+  - first:
+      213: -1438314527639679052
+    second: baseMonster_sheet_65
+  - first:
+      213: -8805338858149600628
+    second: baseMonster_sheet_66
+  - first:
+      213: -5933458235631056030
+    second: baseMonster_sheet_67
+  - first:
+      213: -5404787618414804702
+    second: baseMonster_sheet_68
+  - first:
+      213: -2740587521362985771
+    second: baseMonster_sheet_69
+  - first:
+      213: 3729538552437224298
+    second: baseMonster_sheet_70
+  - first:
+      213: 4516594013471413042
+    second: baseMonster_sheet_71
+  - first:
+      213: 6628424058831625695
+    second: baseMonster_sheet_72
+  - first:
+      213: 7722690000571241889
+    second: baseMonster_sheet_73
+  - first:
+      213: -6119461794920349651
+    second: baseMonster_sheet_74
+  - first:
+      213: 3399982011384752970
+    second: baseMonster_sheet_75
+  - first:
+      213: -3634793125508103892
+    second: baseMonster_sheet_76
+  - first:
+      213: -8628816165911602695
+    second: baseMonster_sheet_77
+  - first:
+      213: 6841001703804679967
+    second: baseMonster_sheet_78
+  - first:
+      213: 5492165291197990506
+    second: baseMonster_sheet_79
+  - first:
+      213: 271263843436775591
+    second: baseMonster_sheet_80
+  - first:
+      213: 4060639242126881662
+    second: baseMonster_sheet_81
+  - first:
+      213: 4573027154449314829
+    second: baseMonster_sheet_82
+  - first:
+      213: -948667272638485066
+    second: baseMonster_sheet_83
+  - first:
+      213: 8890885364595279118
+    second: baseMonster_sheet_84
+  - first:
+      213: -4774987713509756736
+    second: baseMonster_sheet_85
+  - first:
+      213: 4304531183287608077
+    second: baseMonster_sheet_86
+  - first:
+      213: -756109400490925139
+    second: baseMonster_sheet_87
+  - first:
+      213: 5099029464633297964
+    second: baseMonster_sheet_88
+  - first:
+      213: -7763126458657806064
+    second: baseMonster_sheet_89
+  - first:
+      213: -7787900588198685357
+    second: baseMonster_sheet_90
+  - first:
+      213: -3194045363947560228
+    second: baseMonster_sheet_91
+  - first:
+      213: -7061551374787967373
+    second: baseMonster_sheet_92
+  - first:
+      213: -8726850509853692056
+    second: baseMonster_sheet_93
+  - first:
+      213: -7206565106246764853
+    second: baseMonster_sheet_94
+  - first:
+      213: 8683130721600232437
+    second: baseMonster_sheet_95
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 32, y: 32, z: 32, w: 32}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: baseMonster_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 224
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8cc2087baf2984290c86872606d27a
+      internalID: 2926443185699595437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 224
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bac53129a14574cb5847c2031b9f8d
+      internalID: -4594884992261883392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 224
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c862018928c67be40a971f1d61300c3e
+      internalID: -1373258867131555744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 224
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637428cf5ce61394ebec8846fde72c35
+      internalID: -8411696239225779583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 224
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2743bc841c6ac647bc531dc3eeae416
+      internalID: -988027312611205362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 224
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18599361418e2674cb5947162fd064fe
+      internalID: -4347082038548742176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 224
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1b08167e2743c45ad5a926ecb66efc
+      internalID: 4632827230558273797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 224
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fa5373939dab64e855873764448ead
+      internalID: 1532908899673970377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 224
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558fa33a566d92649bab8021ebff3e50
+      internalID: 5932620570539742417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 224
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e8d12aa715c8b4191340c7ce55bf2b
+      internalID: -7880260033508613304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 224
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fc5e126c1d9464f982c31fa27c033a
+      internalID: -5599429116199777227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 224
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bce4fce4caa2374ca9b82dd3ccf362d
+      internalID: -8931468195105912862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 192
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2a3b801c7fff849a0e9ccd19b647a9
+      internalID: 4548281129797075758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 192
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634dc0d91c456e543a90f6d4d5c239f3
+      internalID: -7203706317058445490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 192
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe4230bb02c50e409b2937212b6cc04
+      internalID: -8902242200954546831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 192
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e405367c28c7ad147b48d44f17c054d7
+      internalID: -7638341694551623179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 192
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e298162afabf31b4793c90dce165fbd0
+      internalID: -4128066686671540436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 192
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edcf68cc90ebd54d8594750a1a5a3b9
+      internalID: -4851431463121358421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 192
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30db2be9ac079a348a109fd7caeea1dc
+      internalID: 890780412826001816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 192
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92955b4cde067c34e9bcb25d5eefcbfc
+      internalID: -558122331718251612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 192
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d0f71e4d61e7541a5343d6655ccdf6
+      internalID: 511607619248948109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 192
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201fb192a05ba584aadcfca7836112a2
+      internalID: -2254046351565991000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 192
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d9dae7f1d533f428e9431cfdb6c4c9
+      internalID: -6970186819652664848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 192
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a5425b2b6b6e642b8d62e9b55c5c7c
+      internalID: -4047278704706645087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 160
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d5cfd86fa41d347857fac6f918370c
+      internalID: -8862014666301236364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 160
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0755859f5799af4caa48e5df5b016c2
+      internalID: 6399210455387046001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 160
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4521a14a8f91f46b5ddbb4faa97769
+      internalID: -9151898217147478767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 160
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c674b7df6287d643a516741da9c0418
+      internalID: 4692994774977479948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 160
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4666ff255e481f47ace279e17e9d8ef
+      internalID: 2789705122219380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 160
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccde72cd2b96944c99090710d8f0ebf
+      internalID: -2079484645017432021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 160
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fc589d73b3b9f4da351d93b942114e
+      internalID: 5757238135858362580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 160
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367d57e592116004ba78296900d155a2
+      internalID: -8535868224734344485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 160
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1debfc86126a68542961736dd28fff5d
+      internalID: -5526836980904526891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 160
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622dd39bbb048804a9c1cb81ba7fdf50
+      internalID: 1195878924876965722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 160
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b41643986d42e4582efc9448f6bef1
+      internalID: 6536388580173081171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 160
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaee95dcd545e754bace8a380d5bfc32
+      internalID: -2505605512824206737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 128
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42747dcb1efae9542835e8e2c0e6be2c
+      internalID: -8944123187787979362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 128
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b455c103aec574c8f8a4cbf8c523ad
+      internalID: 3661111505585769239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 128
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b55bb8f16a91c4a8cd4fd1b845f756
+      internalID: -3388590172610655930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 128
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adea9cd693943f348adde3ddc6080de4
+      internalID: 7090224652152177993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 128
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e911232efafbc42b1be4b6555b5ecd
+      internalID: 4827231304593672498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 128
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65551e4e17a246042aadd0712b3079bc
+      internalID: -1989216339805394755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 128
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487d75e9ed056b343ab74febceda54c1
+      internalID: -141855223037649034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 128
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9ac80137560bc4f897624a523b605f
+      internalID: 6537001917144578373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 128
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a72ddf139801b44a0911b0c9c07d2a
+      internalID: -6726890050333449621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 128
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca566929fa4f04458a8d6fd936b3d0f
+      internalID: -2404562811169755841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 128
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8ed5f41e117f346bc61e6219f48b99
+      internalID: -8842328460442407691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 128
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ed8052cd09b334eb0c35cb22fa335f
+      internalID: -2531676186890640762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 96
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f690c1e417d2184684698586669d01a
+      internalID: 5903634352655166102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 96
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c59b3f1af0326479be84f9722a162b
+      internalID: 7013390412819726603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 96
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce25fde31265b0549a98063dfb241b1e
+      internalID: 3392456275409838601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 96
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90afbd9d4ab9b3c4282ddc4df4f8a66a
+      internalID: 2690853962120406398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 96
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e3163c655e41841ba8eaaaa91a41af
+      internalID: 5082766754835299073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 96
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2ea4a2b6511834084c5be4c61d195b
+      internalID: -7930160953552149266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 96
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971a5305bf65a0340b8ac1dc4832f277
+      internalID: 5771999861292095820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 96
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937cd9b35851f7f40ab27f7bb9230030
+      internalID: -3781615371859560975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 96
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3493120ebd6996448951b64e79e7af8c
+      internalID: -7927451847107492663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 96
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94800ab3be416b5448236a33a147d835
+      internalID: 3896362118917993216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 96
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25a75fd730cd4344a1bcf66a421dcdb
+      internalID: 1152154825000910562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 96
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91be74dbf38e629409a9197d5e9781bf
+      internalID: 8759998402867253161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 64
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4509a807651f9f54392d385215be5ef2
+      internalID: 1140886171996099908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 64
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76451cee86589314ab462967b5c4a0f2
+      internalID: 1487640392528412939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 64
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb4068534377ee48bd345a192882aea
+      internalID: -7152845862674687051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 64
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c52695ee981fc1498dd385d9956bedf
+      internalID: 4718372249577181819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 64
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5420c2691c148043b10712fe1ad02f5
+      internalID: -1151032332106811931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 64
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0318c31ed8069748b46e96490e2deec
+      internalID: -1438314527639679052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 64
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de0470f4f25ed846b6057b51dbb77eb
+      internalID: -8805338858149600628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 64
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a7e02f5e6395e4881ceacbef2788af
+      internalID: -5933458235631056030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 64
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27994ee9e1bcb0e4883523266c628022
+      internalID: -5404787618414804702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 64
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec8480786c33404bbeb7b20abed043e
+      internalID: -2740587521362985771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 64
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7ec4db88f3c5048ab42c668d2bd99d
+      internalID: 3729538552437224298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 64
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647b9e5066f34d049a3609f8be34a256
+      internalID: 4516594013471413042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 32
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f5e66cef9c5b94290a4ba0d43c7b34
+      internalID: 6628424058831625695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 32
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a640c3b639bdfc4b98fafa286faf5d2
+      internalID: 7722690000571241889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 32
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114fa5c32b2b44e45b88d6c561f53532
+      internalID: -6119461794920349651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 32
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0468896ba3e304c9d65b5edcd2d705
+      internalID: 3399982011384752970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 32
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce561ec5f9a8b047bae6637e1b8b857
+      internalID: -3634793125508103892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 32
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88ee99c286ed624686bec57d491287c
+      internalID: -8628816165911602695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 32
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8515560d6c74be44bafe8d0fe3900c90
+      internalID: 6841001703804679967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 32
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5203ebd66ed804e8ab45856e121bc3
+      internalID: 5492165291197990506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 32
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ac2a0e46d1dd042a160ac7019e1a79
+      internalID: 271263843436775591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 32
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4353624451b0142489a7e531631d4e6a
+      internalID: 4060639242126881662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 32
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf68b8b95d1f0f4293c69a7d55f4c37
+      internalID: 4573027154449314829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 32
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfa6b9bf31404745a5a62acdf645043
+      internalID: -948667272638485066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09aa15628cb31542866662dc8bf47e7
+      internalID: 8890885364595279118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac4bbc16d6df9a4987e3b8f98df7fab
+      internalID: -4774987713509756736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c419a548ade15614d8a7afd04f52849e
+      internalID: 4304531183287608077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac53fe56fb201c478e83192f63ed21f
+      internalID: -756109400490925139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307f1370e59c6794caa183c876f57273
+      internalID: 5099029464633297964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 0
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b76ce40d8a9d5a419f4f4789fd0d950
+      internalID: -7763126458657806064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98fa50518e8dad4bbd713595b8b8fa4
+      internalID: -7787900588198685357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 0
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ee117c6d4d4154aa7c6356fa473584
+      internalID: -3194045363947560228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 0
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79663954e2e9f1444ad6c4bc004d068f
+      internalID: -7061551374787967373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225fe977e3b8ae74dae86060179c1ce7
+      internalID: -8726850509853692056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d8f58ab2f616c458899e63ae9286e2
+      internalID: -7206565106246764853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseMonster_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 0
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565039f87e83fe0439e05ff31fb09c65
+      internalID: 8683130721600232437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

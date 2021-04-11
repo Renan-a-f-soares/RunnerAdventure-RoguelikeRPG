@@ -30,7 +30,6 @@ public class BattleSystem : MonoBehaviour
     public UiManager player_StatusBox;
     public UiManager enemy_StatusBox;
 
-    public float turnDamage; 
     public BattleState state;
 
     void Start()
@@ -74,10 +73,10 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator PlayerTurn()
     {
-        yield return new WaitForSeconds(3f);
         stateTarget = enemyUnit;
         stateSelf = playerUnit;
         uiTarget = enemy_StatusBox;
+        yield return new WaitForSeconds(3f);
         dialogMessage.text = "o que voce fará?";
 
     }
@@ -85,20 +84,19 @@ public class BattleSystem : MonoBehaviour
     IEnumerator EnemyTurn()
     {
         yield return new WaitForSeconds(3f);
+        dialogMessage.text = "?";
         stateTarget = playerUnit;
         stateSelf = enemyUnit;
         uiTarget = player_StatusBox;
-        dialogMessage.text = "?";
         StartCoroutine(PlayAttack());
         
     }
 
     IEnumerator PlayAttack()
     {
-        yield return new WaitForSeconds(2f);
-        turnDamage = stateSelf.UpdateDamage();
-        stateTarget.TakeDamage(turnDamage);
-        StartCoroutine(DamageCount(turnDamage));
+        yield return new WaitForSeconds(1f);
+        stateTarget.TakeDamage(stateSelf.UpdateDamage());
+        StartCoroutine(DamageCount(stateSelf.damage));
         
         uiTarget.StatusUpdate(stateTarget);
         turnChange();
@@ -130,7 +128,7 @@ public class BattleSystem : MonoBehaviour
     public IEnumerator DamageCount(float hurtDamage)
     {
 
-        if (stateTarget.currentArmor > 0)
+        if(stateTarget.currentArmor > 0)
         {
             if (stateTarget.hit == 1)
             {
@@ -140,13 +138,11 @@ public class BattleSystem : MonoBehaviour
             {
                 dialogMessage.text = "A armadura Bloqueou o Ataque!";
             }
-            yield return new WaitForSeconds(1f);
-
+            yield return new WaitForSeconds(2f);
+            
         }
-
-        dialogMessage.text = stateSelf.unitName + " Desferiu " + hurtDamage + "!";
-        yield return new WaitForSeconds(3f);
-
+        dialogMessage.text = stateSelf.unitName +" Desferiu " + hurtDamage +"!";
+        yield return new WaitForSeconds(3.5f);
     }
 
 
