@@ -25,17 +25,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6525452825542759560}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6525452827532737646}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6525452825542759563
 CanvasRenderer:
@@ -58,12 +58,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.10196078, g: 1, b: 0.90557694, a: 0.59607846}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6916337297528533450, guid: e21904791a35d1641b01e0a5fda12433,
+  m_Sprite: {fileID: -5074358472694555389, guid: bccc4576cd55a7e49b942bbcb8b429df,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -91,7 +91,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6525452827442621366
 RectTransform:
   m_ObjectHideFlags: 0
@@ -100,7 +100,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6525452827442621365}
   m_LocalRotation: {x: 0.49020287, y: -0.383343, z: 0.49829045, w: 0.6037019}
-  m_LocalPosition: {x: 0, y: 0, z: 3.1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1.0512702, y: 1.1201005, z: 1.120101}
   m_Children: []
   m_Father: {fileID: 6525452827532737646}
@@ -108,7 +108,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 76.882, y: 6.4960003, z: 84.23}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -50}
+  m_AnchoredPosition: {x: -3.9, y: -42.6}
   m_SizeDelta: {x: 95.77, y: 100.23001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6525452827442621384
@@ -157,6 +157,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6525452827532737646}
   - component: {fileID: 6525452827532737647}
+  - component: {fileID: 909869516972433306}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Untagged
@@ -173,7 +174,7 @@ RectTransform:
   m_GameObject: {fileID: 6525452827532737645}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 6525452827442621366}
   - {fileID: 6525452825542759561}
@@ -197,20 +198,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bdd1bf6d53fd5948b1cbe5a07a4839e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testeSprite: {fileID: 6525452825542759560}
-  unitName: Ghost
-  level: 57
+  unitName: Goblin
+  level: 2
   currentXP: 0
   nextLevelXP: 0
   improvementPoints: 0
-  strengt: 3
+  strength: 0
   dexterity: 15
-  constitution: 30
-  inteligence: 30
-  experience: 7
-  magic: 1
-  strengtMod: 0
-  dexteritymod: 0
+  constitution: 15
+  inteligence: 1
+  experience: 10
+  magic: 0
+  strengthMod: 0
+  dexterityMod: 0
   constitutionMod: 0
   inteligenceMod: 0
   experienceMod: 0
@@ -220,13 +220,36 @@ MonoBehaviour:
   currentMP: 200
   maxMP: 200
   shieldText: 
-  currentShield: 100
-  maxShield: 100
-  currentArmor: 3
-  maxArmor: 3
-  weaponAttack: 30
+  currentShield: 0
+  maxShield: 0
+  currentArmor: 0
+  maxArmor: 0
+  weaponAttack: 15
   armorDefense: 0
   damage: 0
+  physicalDamage: 0
+  magicalDamage: 0
   hitChance: 0
   hit: 0
   armorQuality: 26
+  physical: 0
+  magical: 0
+--- !u!95 &909869516972433306
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6525452827532737645}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dd4d1b0a6f0ba704bb548470d34244fc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
