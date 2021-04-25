@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    //start
-    public float charSpeed = 20f;
+    public float charSpeed;
     int speed;
     public Rigidbody2D rbody;
     //instancia do modole de animação
@@ -13,15 +12,11 @@ public class PlayerMove : MonoBehaviour
 
     Vector2 movement;
     
-
-
-    // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
