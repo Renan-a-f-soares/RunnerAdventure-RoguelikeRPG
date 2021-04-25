@@ -53,17 +53,4 @@ public class UiManager : MonoBehaviour
         healthResource.text = unit.currentHP + ":" + unit.maxHP + unit.shieldText;
         manaResource.text = unit.currentMP + ":" + unit.maxMP;
     }
-
-    public void DamageDealer(float currentHP)
-    {
-        
-        //hitChance = Random.Range(1, 101);
-        //if(hitChance < globalUnit.armorQuality)
-        //{
-
-        //}
-        //globalUnit.currentArmor -= 1;
-
-    }
-
 }
