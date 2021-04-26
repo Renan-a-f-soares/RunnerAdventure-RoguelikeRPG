@@ -46,10 +46,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\BattleSystem.cs" />
+     <Compile Include="Assets\Entities\Spawner.cs" />
      <Compile Include="Assets\Pahfinder\Enemy AI\GhostPursuer.cs" />
      <Compile Include="Assets\Pahfinder\Enemy AI\lowPursuer.cs" />
      <Compile Include="Assets\Pahfinder\Enemy AI\smartPursuer.cs" />
-     <Compile Include="Assets\Spawner.cs" />
      <Compile Include="Assets\Sprites\animation\Enemy\PursuerMove.cs" />
      <Compile Include="Assets\Sprites\animation\player\PlayerMove.cs" />
      <Compile Include="Assets\Sprites\Status.cs" />

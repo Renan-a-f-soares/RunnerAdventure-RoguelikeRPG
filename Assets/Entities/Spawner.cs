@@ -4,11 +4,20 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
+    //resolver Bug DO spawn não dinamico
+
     //timer
     public float timeCount;
     public float timeTick = 30;
+    public List<float> DangerUP = new List<float>();
     public float spawnRate;
     public int spawnNumber;
+    int i;
+
+    // Controladores do randon
+    public int minStrength = 1;
+    public int maxStrength = 2;
+    public int monsterType;
 
     //prefabs a serem instanciados
     public GameObject lowPursuer;
@@ -24,9 +33,12 @@ public class Spawner : MonoBehaviour
     {
         timeCount += Time.deltaTime;
         switch(timeCount){
-
+            case 25:
+                spawnNumber = 1;
+            break;
             case 180: //3
                 spawnRate = 25;
+                
             break;
             case 300: //5:
                 spawnRate = 20;
@@ -74,6 +86,7 @@ public class Spawner : MonoBehaviour
         
         if(timeCount > timeTick){
             timeTick += spawnRate;
+            Debug.Log("Time Count:" + timeCount);
             SpawnMonster();
         }
         
@@ -81,7 +94,16 @@ public class Spawner : MonoBehaviour
     }
 
     void SpawnMonster(){
-        Debug.LogError("spawna!!!!!!!!!" + timeTick);
+
+        Debug.LogError("i: "+i +  "SpawnNumber: " + spawnNumber);
+        for(i=0; i < spawnNumber;i++){
+            monsterType = Random.Range(minStrength,maxStrength);
+            Vector3 randomPosition = Random.insideUnitCircle * radius;
+            Instantiate(lowPursuer, randomPosition,Quaternion.identity);
+            Debug.LogError(i + " monster Type:" + monsterType);
+            Debug.Log(i + " random Position"+ randomPosition);
+        }
+   
     }
 
      private void OnDrawGizmos() {

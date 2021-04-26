@@ -7,10 +7,12 @@ public class smartPursuer : MonoBehaviour
 {
 
     public float speed;
-    [SerializeField] Transform target;
+    private Transform target;
     NavMeshAgent minion;
     void Start()
     {
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+
         minion = GetComponent<NavMeshAgent>();
         minion.updateRotation = false;
         minion.updateUpAxis = false;
