@@ -14,6 +14,11 @@ public class Spawner : MonoBehaviour
     public int spawnNumber;
     int i;
 
+    //variaveis de controle de posicionamento
+    public Vector3 origin;
+    public Vector3 randomPosition;
+
+
     // Controladores do randon
     public int minStrength = 1;
     public int maxStrength = 2;
@@ -24,16 +29,19 @@ public class Spawner : MonoBehaviour
     public float radius;
     void Start()
     {
-        spawnNumber = 1;
+        spawnNumber = 0;
         spawnRate = 30;
     }
 
     // Update is called once per frame
     void Update()
     {
+        //adiciona a diferença para que o contador represente o tempo real
         timeCount += Time.deltaTime;
-        switch(timeCount){
-            case 25:
+        // mathf.floor = arredondamento 
+        //para que o valores não venham decimais por conta de serem em tempo real
+        switch(Mathf.Floor(timeCount)){
+            case 40:
                 spawnNumber = 1;
             break;
             case 180: //3
@@ -98,13 +106,20 @@ public class Spawner : MonoBehaviour
         Debug.LogError("i: "+i +  "SpawnNumber: " + spawnNumber);
         for(i=0; i < spawnNumber;i++){
             monsterType = Random.Range(minStrength,maxStrength);
-            Vector3 randomPosition = Random.insideUnitCircle * radius;
+            Vector3 randomCirclePosition = Random.insideUnitCircle * radius;
+            origin = transform.position;
+            //Faz com que o valor aleatorio siga o personagem ao andar
+            randomPosition = origin + randomCirclePosition;
             Instantiate(lowPursuer, randomPosition,Quaternion.identity);
             Debug.LogError(i + " monster Type:" + monsterType);
             Debug.Log(i + " random Position"+ randomPosition);
         }
    
     }
+
+    /*void difficultLever(float timecount){
+
+    }*/
 
      private void OnDrawGizmos() {
         Gizmos.color = Color.red;

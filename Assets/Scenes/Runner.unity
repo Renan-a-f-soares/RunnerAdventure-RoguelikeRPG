@@ -156,7 +156,7 @@ MonoBehaviour:
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
     cacheStartup: 0
-  showNavGraphs: 1
+  showNavGraphs: 0
   showUnwalkableNodes: 1
   debugMode: 0
   debugFloor: 0
@@ -23546,12 +23546,14 @@ MonoBehaviour:
   DangerUP: []
   spawnRate: 0
   spawnNumber: 0
+  origin: {x: 0, y: 0, z: 0}
+  randomPosition: {x: 0, y: 0, z: 0}
   minStrength: 1
   maxStrength: 1
   monsterType: 0
   lowPursuer: {fileID: 2531247882944287431, guid: 69c4ccb7ad3c78345a3b9465b625cd13,
     type: 3}
-  radius: 2
+  radius: 10
 --- !u!1 &1837709584
 GameObject:
   m_ObjectHideFlags: 0
