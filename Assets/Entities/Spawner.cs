@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -66,7 +66,7 @@ public class Spawner : MonoBehaviour
             break;
             case 600://10
                 spawnRate = 30;
-                spawnNumber = 8;
+                spawnNumber = 10;
             break;
             case 660://11
                 spawnRate = 10;
@@ -91,36 +91,7 @@ public class Spawner : MonoBehaviour
             default:
             break;
         }
-        
-        if(timeCount > timeTick){
-            timeTick += spawnRate;
-            Debug.Log("Time Count:" + timeCount);
-            SpawnMonster();
-        }
-        
-
     }
-
-    void SpawnMonster(){
-
-        Debug.LogError("i: "+i +  "SpawnNumber: " + spawnNumber);
-        for(i=0; i < spawnNumber;i++){
-            monsterType = Random.Range(minStrength,maxStrength);
-            Vector3 randomCirclePosition = Random.insideUnitCircle * radius;
-            origin = transform.position;
-            //Faz com que o valor aleatorio siga o personagem ao andar
-            randomPosition = origin + randomCirclePosition;
-            Instantiate(lowPursuer, randomPosition,Quaternion.identity);
-            Debug.LogError(i + " monster Type:" + monsterType);
-            Debug.Log(i + " random Position"+ randomPosition);
-        }
-   
-    }
-
-    /*void difficultLever(float timecount){
-
-    }*/
-
      private void OnDrawGizmos() {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(this.transform.position, radius);
