@@ -5,10 +5,14 @@ using UnityEngine.AI;
 public class lowPursuer : MonoBehaviour
 {   
     public float speed;
+     public float distance;
+    public float reach;
+    public float squareReach;
     private Transform target;
     NavMeshAgent minion;
     void Start()
     {
+        reach = 15f;
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         
         minion = GetComponent<NavMeshAgent>();
@@ -19,6 +23,10 @@ public class lowPursuer : MonoBehaviour
     void FixedUpdate()
     {
         minion.speed = speed;
+        squareReach = reach*reach;
+        distance = (transform.position - target.position).sqrMagnitude;
+        if(distance < squareReach){
         transform.position = Vector2.MoveTowards(transform.position, target.position, speed*Time.deltaTime);
+        }
     }
 }

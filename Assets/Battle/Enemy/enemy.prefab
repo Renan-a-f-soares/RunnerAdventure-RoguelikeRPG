@@ -63,16 +63,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5074358472694555389, guid: bccc4576cd55a7e49b942bbcb8b429df,
-    type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 2
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 1
+  m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!1 &6525452827442621365
 GameObject:
@@ -199,33 +198,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bdd1bf6d53fd5948b1cbe5a07a4839e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitName: Goblin
-  level: 2
+  unitName: Rainha do gelo
+  level: 78
   currentXP: 0
   nextLevelXP: 0
   improvementPoints: 0
-  strength: 0
-  dexterity: 15
+  strength: 80
+  dexterity: 200
   constitution: 15
-  inteligence: 1
-  experience: 10
-  magic: 0
+  inteligence: 200
+  experience: 70
+  magic: 5
   strengthMod: 0
   dexterityMod: 0
   constitutionMod: 0
   inteligenceMod: 0
   experienceMod: 0
   magicMod: 0
-  currentHP: 200
-  maxHP: 200
-  currentMP: 200
-  maxMP: 200
+  currentHP: 4000
+  maxHP: 4000
+  currentMP: 450
+  maxMP: 450
   shieldText: 
-  currentShield: 0
-  maxShield: 0
-  currentArmor: 0
-  maxArmor: 0
-  weaponAttack: 15
+  currentShield: 2000
+  maxShield: 2000
+  currentArmor: 4
+  maxArmor: 4
+  weaponAttack: 100
   armorDefense: 0
   damage: 0
   physicalDamage: 0

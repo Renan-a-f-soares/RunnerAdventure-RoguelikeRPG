@@ -23543,17 +23543,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeCount: 0
   timeTick: 0
-  DangerUP: []
   spawnRate: 0
   spawnNumber: 0
   origin: {x: 0, y: 0, z: 0}
   randomPosition: {x: 0, y: 0, z: 0}
+  radius: 10
   minStrength: 1
   maxStrength: 1
   monsterType: 0
+  monster: []
   lowPursuer: {fileID: 2531247882944287431, guid: 69c4ccb7ad3c78345a3b9465b625cd13,
     type: 3}
-  radius: 10
+  smartPursuer1: {fileID: 31191217402805425, guid: 08926bf5e125f264b99922c210df52ad,
+    type: 3}
+  smartPursuer2: {fileID: 5100152718997040809, guid: 66df40ec9df121c418cdbde638d50684,
+    type: 3}
 --- !u!1 &1837709584
 GameObject:
   m_ObjectHideFlags: 0
@@ -23921,5 +23925,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmartPurseur2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1538324503580194496, guid: 66df40ec9df121c418cdbde638d50684, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 66df40ec9df121c418cdbde638d50684, type: 3}

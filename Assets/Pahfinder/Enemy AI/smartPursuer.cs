@@ -7,12 +7,15 @@ public class smartPursuer : MonoBehaviour
 {
 
     public float speed;
+     public float distance;
+    public float reach;                                          
+    public float squareReach;
     private Transform target;
     NavMeshAgent minion;
     void Start()
     {
+        reach = 15f;
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-
         minion = GetComponent<NavMeshAgent>();
         minion.updateRotation = false;
         minion.updateUpAxis = false;
@@ -22,6 +25,11 @@ public class smartPursuer : MonoBehaviour
     void FixedUpdate()
     {
         minion.speed = speed;
-        minion.SetDestination(target.position);
+        // Um calculo melhorado de distancia entre objetos 
+        squareReach = reach*reach;
+        distance = (transform.position - target.position).sqrMagnitude;
+        if(distance < squareReach){
+            minion.SetDestination(target.position);
+        }
     }
 }

@@ -4,31 +4,40 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    //resolver Bug DO spawn não dinamico
-
     //timer
     public float timeCount;
     public float timeTick = 30;
-    public List<float> DangerUP = new List<float>();
+    
+    //Modificadores de dificuldade
     public float spawnRate;
     public int spawnNumber;
-    int i;
+    float levelMod;
 
     //variaveis de controle de posicionamento
     public Vector3 origin;
     public Vector3 randomPosition;
+    public float radius;
 
 
     // Controladores do randon
-    public int minStrength = 1;
-    public int maxStrength = 2;
+    public int minStrength;
+    public int maxStrength ;
     public int monsterType;
+    
 
-    //prefabs a serem instanciados
+    //Controle de Instanciamento
+    public List<GameObject> monster = new List<GameObject>();
     public GameObject lowPursuer;
-    public float radius;
+    public GameObject smartPursuer1;
+    public GameObject smartPursuer2;
+    
     void Start()
-    {
+    { 
+        monster.Add(lowPursuer);
+        monster.Add(smartPursuer1);
+        monster.Add(smartPursuer2);
+        minStrength = 0;
+        maxStrength = 1;
         spawnNumber = 0;
         spawnRate = 30;
     }
@@ -38,56 +47,93 @@ public class Spawner : MonoBehaviour
     {
         //adiciona a diferença para que o contador represente o tempo real
         timeCount += Time.deltaTime;
+        levelMod = Mathf.Round(timeCount);
         // mathf.floor = arredondamento 
         //para que o valores não venham decimais por conta de serem em tempo real
-        switch(Mathf.Floor(timeCount)){
+
+        DifficultLever(Mathf.Floor(timeCount));
+        
+        if(timeCount > timeTick){
+            timeTick += spawnRate;
+            SpawnMonster();
+        }
+    }
+
+    void SpawnMonster(){
+
+        for(int i=0; i < spawnNumber;i++){
+            monsterType = Random.Range(minStrength,maxStrength);
+            Vector3 randomCirclePosition = Random.insideUnitCircle * radius;
+            origin = transform.position; // pega a posição do objeto spawner
+            //Faz com que o valor aleatorio siga o personagem ao andar
+            randomPosition = origin + randomCirclePosition;
+            Instantiate(monster[monsterType], randomPosition,Quaternion.identity);
+        }
+   
+    }
+
+    void DifficultLever(float roundTime){
+        switch(roundTime){
             case 40:
                 spawnNumber = 1;
             break;
+
             case 180: //3
                 spawnRate = 25;
+                 maxStrength = 2;
                 
             break;
+
             case 300: //5:
                 spawnRate = 20;
-                spawnNumber = 2;
+                spawnNumber = 3;
             break;
+
             case 360://6
                 spawnRate = 18;
                 spawnNumber = 2;
             break;
+
             case 420://7
                 spawnRate = 15;
                 spawnNumber = 3;
             break;
+
             case 540://9
-                spawnRate += 15;
+                spawnRate = 15;
                 spawnNumber = 4;
             break;
+
             case 600://10
                 spawnRate = 30;
                 spawnNumber = 10;
             break;
+
             case 660://11
                 spawnRate = 10;
                 spawnNumber = 4;
             break;
+
             case 780://13
                 spawnRate = 10;
                 spawnNumber = 5;
             break;
+
             case 900://15
                 spawnRate = 8;
                 spawnNumber = 5;
             break;
+
             case 1020://17
                 spawnRate = 5;
                 spawnNumber = 4;
             break;
+
             case 1200://20
                 spawnRate = 1;
-                spawnNumber = 1;
+                spawnNumber = 2;
             break;
+
             default:
             break;
         }
