@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -40,11 +40,7 @@ public class PlayerMove : MonoBehaviour
         }
         animator.SetFloat("speed", speed);
         
-        
-        
 
-        rbody.MovePosition(rbody.position + movement * charSpeed * Time.fixedDeltaTime);
-    }
 
 
     //end
