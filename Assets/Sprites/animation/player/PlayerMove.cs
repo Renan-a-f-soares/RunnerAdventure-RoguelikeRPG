@@ -9,7 +9,6 @@ public class PlayerMove : MonoBehaviour
     public Rigidbody2D rbody;
     //instancia do modole de animação
     Animator animator;
-
     Vector2 movement;
     
     void Start()
