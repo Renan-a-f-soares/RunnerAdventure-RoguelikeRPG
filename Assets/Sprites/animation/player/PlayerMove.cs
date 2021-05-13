@@ -40,7 +40,8 @@ public class PlayerMove : MonoBehaviour
         animator.SetFloat("speed", speed);
         
 
-
+    rbody.MovePosition(rbody.position + movement * charSpeed * Time.fixedDeltaTime);
+    }
 
     //end
 }
