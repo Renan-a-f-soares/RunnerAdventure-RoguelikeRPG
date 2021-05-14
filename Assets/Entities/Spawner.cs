@@ -48,6 +48,7 @@ public class Spawner : MonoBehaviour
         //adiciona a diferença para que o contador represente o tempo real
         timeCount += Time.deltaTime;
         levelMod = Mathf.Round(timeCount);
+
         // mathf.floor = arredondamento 
         //para que o valores não venham decimais por conta de serem em tempo real
 
@@ -65,7 +66,8 @@ public class Spawner : MonoBehaviour
             monsterType = Random.Range(minStrength,maxStrength);
             Vector3 randomCirclePosition = Random.insideUnitCircle * radius;
             origin = transform.position; // pega a posição do objeto spawner
-            //Faz com que o valor aleatorio siga o personagem ao andar
+
+            //Faz com que o objeto spawner siga o personagem ao andar
             randomPosition = origin + randomCirclePosition;
             Instantiate(monster[monsterType], randomPosition,Quaternion.identity);
         }

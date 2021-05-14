@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -23,6 +23,7 @@ public class lowPursuer : MonoBehaviour
     void FixedUpdate()
     {
         minion.speed = speed;
+        // Um calculo melhorado de distancia entre objetos 
         squareReach = reach*reach;
         distance = (transform.position - target.position).sqrMagnitude;
         if(distance < squareReach){

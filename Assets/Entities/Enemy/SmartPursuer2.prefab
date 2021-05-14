@@ -74,7 +74,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.5625, y: 0.9375}
+  m_Size: {x: 0.4375, y: 0.90625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -94,9 +94,10 @@ GameObject:
   - component: {fileID: 5100152718997040805}
   - component: {fileID: 2968166280241173985}
   - component: {fileID: 8339436900089883705}
+  - component: {fileID: 6174352865743587374}
   m_Layer: 0
   m_Name: SmartPursuer2
-  m_TagString: Untagged
+  m_TagString: mid_enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -226,3 +227,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pursuerID: 3
+--- !u!70 &6174352865743587374
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5100152718997040809}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0018398166, y: 0.095670044}
+  m_Size: {x: 0.37857252, y: 0.61731946}
+  m_Direction: 0

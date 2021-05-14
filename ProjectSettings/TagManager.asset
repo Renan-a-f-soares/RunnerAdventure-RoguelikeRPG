@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - low_enemy
+  - mid_enemy
+  - high_enemy
+  - boss
   layers:
   - Default
   - TransparentFX

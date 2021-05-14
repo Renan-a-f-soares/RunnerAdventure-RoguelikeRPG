@@ -46,13 +46,14 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\BattleSystem.cs" />
+     <Compile Include="Assets\Entities\CollisionEvent.cs" />
      <Compile Include="Assets\Entities\Spawner.cs" />
+     <Compile Include="Assets\Entities\Status.cs" />
      <Compile Include="Assets\Pahfinder\Enemy AI\GhostPursuer.cs" />
      <Compile Include="Assets\Pahfinder\Enemy AI\lowPursuer.cs" />
      <Compile Include="Assets\Pahfinder\Enemy AI\smartPursuer.cs" />
      <Compile Include="Assets\Sprites\animation\Enemy\PursuerMove.cs" />
      <Compile Include="Assets\Sprites\animation\player\PlayerMove.cs" />
-     <Compile Include="Assets\Sprites\Status.cs" />
      <Compile Include="Assets\UiManager.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
@@ -73,43 +74,43 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/softwares/Projetos/First Game/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/Familia/Documents/Renan/unity Projects/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Cinemachine">
- <HintPath>C:/softwares/Projetos/First Game/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ <HintPath>C:/Users/Familia/Documents/Renan/unity Projects/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/softwares/Projetos/First Game/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/Familia/Documents/Renan/unity Projects/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/softwares/Projetos/First Game/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Familia/Documents/Renan/unity Projects/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/softwares/Projetos/First Game/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/Familia/Documents/Renan/unity Projects/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/softwares/Projetos/First Game/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/Familia/Documents/Renan/unity Projects/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/softwares/Projetos/First Game/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/Familia/Documents/Renan/unity Projects/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/softwares/Projetos/First Game/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/Familia/Documents/Renan/unity Projects/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/softwares/Projetos/First Game/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>C:/Users/Familia/Documents/Renan/unity Projects/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>C:/softwares/Projetos/First Game/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ <HintPath>C:/Users/Familia/Documents/Renan/unity Projects/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.cinemachine.editor">
- <HintPath>C:/softwares/Projetos/First Game/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ <HintPath>C:/Users/Familia/Documents/Renan/unity Projects/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/softwares/Projetos/First Game/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Familia/Documents/Renan/unity Projects/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/softwares/Projetos/First Game/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/Familia/Documents/Renan/unity Projects/RunnerAdventure-RoguelikeRPG/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -295,7 +296,16 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>C:/softwares/Projetos/First Game/RunnerAdventure-RoguelikeRPG/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ <HintPath>C:/Users/Familia/Documents/Renan/unity Projects/RunnerAdventure-RoguelikeRPG/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

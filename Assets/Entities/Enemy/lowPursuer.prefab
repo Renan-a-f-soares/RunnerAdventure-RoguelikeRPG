@@ -74,7 +74,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.5625, y: 0.90625}
+  m_Size: {x: 0.4375, y: 0.90625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -93,9 +93,10 @@ GameObject:
   - component: {fileID: 2531247882944287428}
   - component: {fileID: 4823479711657382445}
   - component: {fileID: -4947384067288321362}
+  - component: {fileID: 9221608883587123438}
   m_Layer: 0
   m_Name: lowPursuer
-  m_TagString: Untagged
+  m_TagString: low_enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -150,7 +151,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  target: {fileID: 0}
+  distance: 0
+  reach: 0
+  squareReach: 0
 --- !u!114 &4823479711657382445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,3 +186,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!70 &9221608883587123438
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2531247882944287431}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0012094975, y: -0.09083158}
+  m_Size: {x: 0.3717934, y: 0.7022253}
+  m_Direction: 0
