@@ -1,7 +1,6 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 
 public class PlayerMove : MonoBehaviour
 {
@@ -22,7 +21,6 @@ public class PlayerMove : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        
     }
 
     void FixedUpdate()
@@ -50,7 +48,7 @@ public class PlayerMove : MonoBehaviour
         switch(colliderInfo.tag){
             case "low_enemy":
                 //Chama script para gerar inimigo e em seguida etrart na batalha
-                Debug.LogError(colliderInfo.name);
+                Debug.LogError(colliderInfo.tag);
             break;
             case "exp_ball":
                 //Exclui o objeto do mapa
@@ -64,5 +62,7 @@ public class PlayerMove : MonoBehaviour
             default:
             break;
         }
-    }   
+        //enter.EventController(colliderInfo);
+    }
+
 }
