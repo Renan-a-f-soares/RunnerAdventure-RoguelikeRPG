@@ -10,7 +10,7 @@ public class PlayerMove : MonoBehaviour
     //instancia do modole de animação
     Animator animator;
     Vector2 movement;
-    
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -47,8 +47,14 @@ public class PlayerMove : MonoBehaviour
     {
         switch(colliderInfo.tag){
             case "low_enemy":
+                RandonGenerator rnd = new RandonGenerator();
+                Spawner time = new Spawner();
                 //Chama script para gerar inimigo e em seguida etrart na batalha
-                Debug.LogError(colliderInfo.tag);
+                rnd.SetEnemyInfo(colliderInfo);
+                rnd.RandonMonsterID();
+                //selecionar inimigo e alterar seus status
+
+            
             break;
             case "exp_ball":
                 //Exclui o objeto do mapa
@@ -62,7 +68,6 @@ public class PlayerMove : MonoBehaviour
             default:
             break;
         }
-        //enter.EventController(colliderInfo);
     }
 
 }

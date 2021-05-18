@@ -11,7 +11,7 @@ public class Spawner : MonoBehaviour
     //Modificadores de dificuldade
     public float spawnRate;
     public int spawnNumber;
-    float levelMod;
+    public float levelMod;
 
     //variaveis de controle de posicionamento
     public Vector3 origin;
@@ -20,8 +20,8 @@ public class Spawner : MonoBehaviour
 
 
     // Controladores do randon
-    public int minStrength;
-    public int maxStrength ;
+    public int minType;
+    public int maxType ;
     public int monsterType;
     
 
@@ -36,18 +36,18 @@ public class Spawner : MonoBehaviour
         monster.Add(lowPursuer);
         monster.Add(smartPursuer1);
         monster.Add(smartPursuer2);
-        minStrength = 0;
-        maxStrength = 1;
+        minType = 0;
+        maxType = 1;
         spawnNumber = 0;
         spawnRate = 30;
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
         //adiciona a diferença para que o contador represente o tempo real
         timeCount += Time.deltaTime;
-        levelMod = Mathf.Round(timeCount);
+        SetTime(timeCount);
 
         // mathf.floor = arredondamento 
         //para que o valores não venham decimais por conta de serem em tempo real
@@ -63,7 +63,7 @@ public class Spawner : MonoBehaviour
     void SpawnMonster(){
 
         for(int i=0; i < spawnNumber;i++){
-            monsterType = Random.Range(minStrength,maxStrength);
+            monsterType = Random.Range(minType,maxType);
             Vector3 randomCirclePosition = Random.insideUnitCircle * radius;
             origin = transform.position; // pega a posição do objeto spawner
 
@@ -82,7 +82,7 @@ public class Spawner : MonoBehaviour
 
             case 180: //3
                 spawnRate = 25;
-                 maxStrength = 2;
+                maxType = 3;
                 
             break;
 
@@ -140,6 +140,17 @@ public class Spawner : MonoBehaviour
             break;
         }
     }
+    void SetTime(float defineTime){
+        levelMod = Mathf.Round(defineTime);
+        
+    }
+
+    public float GetTime(){
+        Debug.Log("get: " + levelMod);
+        return levelMod;
+    }
+
+
      private void OnDrawGizmos() {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(this.transform.position, radius);
