@@ -142,14 +142,9 @@ public class Spawner : MonoBehaviour
     }
     void SetTime(float defineTime){
         levelMod = Mathf.Round(defineTime);
-        
+        RandonGenerator rnd = new RandonGenerator();
+        rnd.SetTime(levelMod);
     }
-
-    public float GetTime(){
-        Debug.Log("get: " + levelMod);
-        return levelMod;
-    }
-
 
      private void OnDrawGizmos() {
         Gizmos.color = Color.red;

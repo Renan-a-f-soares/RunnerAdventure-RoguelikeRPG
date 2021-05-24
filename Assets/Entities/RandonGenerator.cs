@@ -8,11 +8,12 @@ public class RandonGenerator : MonoBehaviour
     private int maxStrength;
     private int rndMonster;
     public float timeCount;
+    public float timeTick;
     private Collider2D enemyinfo;
     // Start is called before the first frame update
     void Start()
     {
-        
+     timeTick = 2;
     }
 
     // Update is called once per frame
@@ -23,16 +24,23 @@ public class RandonGenerator : MonoBehaviour
     public void SetEnemyInfo(Collider2D colliderInfo){
         enemyinfo = colliderInfo;
     }
+
+    public void RandonMonsterID(){
+        Debug.Log("tempo certo: "+ maxStrength);
+        
+    }
+
+   
     
     public void SetTime(float defineTime){
         timeCount = defineTime;
-        //Debug.Log("tempo: "+ timeCount);
-    }
-    public void RandonMonsterID(){
-        Spawner timeM = new Spawner();
-        timeCount = timeM.GetTime();
-       // Debug.Log("tempo: "+ timeM.timeCount );
+        if(defineTime > timeTick){
+            minStrength = minStrength + 1;
+            maxStrength = maxStrength + 2;
+            timeTick = timeTick + 3;
+            //Debug.Log("tempo: "+ minStrength +" "+ timeTick);
+        } 
         
     }
-   
+    
 }

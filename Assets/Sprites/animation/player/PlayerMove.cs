@@ -7,7 +7,7 @@ public class PlayerMove : MonoBehaviour
     public float charSpeed;
     int speed;
     public Rigidbody2D rbody;
-    //instancia do modole de animação
+    //instancia do modulo de animação
     Animator animator;
     Vector2 movement;
 
@@ -52,6 +52,7 @@ public class PlayerMove : MonoBehaviour
                 //Chama script para gerar inimigo e em seguida etrart na batalha
                 rnd.SetEnemyInfo(colliderInfo);
                 rnd.RandonMonsterID();
+                
                 //selecionar inimigo e alterar seus status
 
             
