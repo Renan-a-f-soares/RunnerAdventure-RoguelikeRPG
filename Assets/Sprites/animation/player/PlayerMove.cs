@@ -7,6 +7,8 @@ public class PlayerMove : MonoBehaviour
     public float charSpeed;
     int speed;
     public Rigidbody2D rbody;
+
+    public int rndMonster;
     //instancia do modulo de animação
     Animator animator;
     Vector2 movement;
@@ -47,12 +49,12 @@ public class PlayerMove : MonoBehaviour
     {
         switch(colliderInfo.tag){
             case "low_enemy":
-                RandonGenerator rnd = new RandonGenerator();
+                RandonGenerator rnd = gameObject.AddComponent<RandonGenerator>();
                 Spawner time = new Spawner();
                 //Chama script para gerar inimigo e em seguida etrart na batalha
                 rnd.SetEnemyInfo(colliderInfo);
-                rnd.RandonMonsterID();
-                
+                rndMonster = rnd.RandonMonsterID();
+                Debug.Log("Monstro: " + rndMonster);
                 //selecionar inimigo e alterar seus status
 
             

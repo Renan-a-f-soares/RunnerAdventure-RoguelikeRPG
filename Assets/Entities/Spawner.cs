@@ -142,7 +142,7 @@ public class Spawner : MonoBehaviour
     }
     void SetTime(float defineTime){
         levelMod = Mathf.Round(defineTime);
-        RandonGenerator rnd = new RandonGenerator();
+        RandonGenerator rnd = gameObject.AddComponent<RandonGenerator>();
         rnd.SetTime(levelMod);
     }
 

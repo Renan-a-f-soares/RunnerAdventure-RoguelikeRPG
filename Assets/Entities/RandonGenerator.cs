@@ -4,30 +4,51 @@ using UnityEngine;
 
 public class RandonGenerator : MonoBehaviour
 {
-    private int minStrength;
-    private int maxStrength;
-    private int rndMonster;
+    public int minStrength;
+    public int maxStrength;
+    public int rndMonster;
+    public int levelMod = 1;
+    public int levelTick = 3;
+    public int newValue = 0;
     public float timeCount;
     public float timeTick;
-    private Collider2D enemyinfo;
+    public Collider2D enemyinfo;
     // Start is called before the first frame update
     void Start()
     {
-     timeTick = 2;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+     
     }
 
     public void SetEnemyInfo(Collider2D colliderInfo){
         enemyinfo = colliderInfo;
     }
 
-    public void RandonMonsterID(){
-        Debug.Log("tempo certo: "+ maxStrength);
+    public int UpdateValue(int oldValue){
+        newValue = oldValue ;
+        return newValue;
+    }
+
+    public int RandonMonsterID(){
+        if (levelMod < 21){
+            if (levelTick == 3){
+                //deixa os valores minimos e maximos do random dinamicos
+                minStrength += 1;
+                maxStrength = levelMod + 1;
+                levelMod += 2;
+                levelTick = 0;
+
+            }
+            levelTick = newValue + 1;
+            levelTick = UpdateValue(levelTick);
+            rndMonster = Random.Range(minStrength,maxStrength);
+
+            Debug.Log("Min" + minStrength);
+            Debug.Log("Max" + maxStrength);
+            Debug.Log("Levelmod" + levelTick);
+            Debug.Log("rnd" + rndMonster);
+        }
         
+        return rndMonster;
     }
 
    
