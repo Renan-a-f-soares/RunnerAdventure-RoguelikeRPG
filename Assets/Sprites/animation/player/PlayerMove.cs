@@ -12,11 +12,13 @@ public class PlayerMove : MonoBehaviour
     //instancia do modulo de animação
     Animator animator;
     Vector2 movement;
+    RandonGenerator rnd;
 
     void Start()
     {
         animator = GetComponent<Animator>();
         rbody = GetComponent<Rigidbody2D>();
+        rnd =  gameObject.AddComponent<RandonGenerator>();
     }
 
     void Update()
@@ -49,8 +51,8 @@ public class PlayerMove : MonoBehaviour
     {
         switch(colliderInfo.tag){
             case "low_enemy":
-                RandonGenerator rnd = gameObject.AddComponent<RandonGenerator>();
-                Spawner time = new Spawner();
+               // RandonGenerator rnd = gameObject.AddComponent<RandonGenerator>();
+                
                 //Chama script para gerar inimigo e em seguida etrart na batalha
                 rnd.SetEnemyInfo(colliderInfo);
                 rndMonster = rnd.RandonMonsterID();

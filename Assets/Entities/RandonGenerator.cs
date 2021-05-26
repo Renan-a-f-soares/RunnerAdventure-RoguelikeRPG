@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class RandonGenerator : MonoBehaviour
 {
-    public int minStrength;
-    public int maxStrength;
-    public int rndMonster;
-    public int levelMod = 1;
+    private int minStrength;
+    private int maxStrength;
+    private int rndMonster;
+    private int levelMod = 1;
     public int levelTick = 3;
     public int newValue = 0;
     public float timeCount;
@@ -29,7 +29,7 @@ public class RandonGenerator : MonoBehaviour
     }
 
     public int RandonMonsterID(){
-        if (levelMod < 21){
+        if (levelMod < 10){
             if (levelTick == 3){
                 //deixa os valores minimos e maximos do random dinamicos
                 minStrength += 1;
@@ -38,16 +38,14 @@ public class RandonGenerator : MonoBehaviour
                 levelTick = 0;
 
             }
-            levelTick = newValue + 1;
-            levelTick = UpdateValue(levelTick);
-            rndMonster = Random.Range(minStrength,maxStrength);
-
-            Debug.Log("Min" + minStrength);
-            Debug.Log("Max" + maxStrength);
-            Debug.Log("Levelmod" + levelTick);
-            Debug.Log("rnd" + rndMonster);
+            levelTick += 1;
         }
-        
+        rndMonster = Random.Range(minStrength,maxStrength);
+
+            //Debug.Log("Min" + minStrength);
+            //Debug.Log("Max" + maxStrength);
+            //Debug.Log("Levelmod" + levelTick);
+            //Debug.Log("rnd" + rndMonster);
         return rndMonster;
     }
 

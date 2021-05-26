@@ -47,7 +47,6 @@ public class Spawner : MonoBehaviour
     {
         //adiciona a diferença para que o contador represente o tempo real
         timeCount += Time.deltaTime;
-        SetTime(timeCount);
 
         // mathf.floor = arredondamento 
         //para que o valores não venham decimais por conta de serem em tempo real
@@ -139,11 +138,6 @@ public class Spawner : MonoBehaviour
             default:
             break;
         }
-    }
-    void SetTime(float defineTime){
-        levelMod = Mathf.Round(defineTime);
-        RandonGenerator rnd = gameObject.AddComponent<RandonGenerator>();
-        rnd.SetTime(levelMod);
     }
 
      private void OnDrawGizmos() {
